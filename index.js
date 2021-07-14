@@ -4,13 +4,15 @@ const port = process.env.PORT || 3000
 const methods = require ("./Request/get")
 
 app.get("/", (req, res)=>{ 
+
+    res.send("It's Working")
     
-    methods.getAll().then(
+   /* methods.getAll().then(
         (result)=>{
             res.json(result)
         }
     )
-    .catch(error=>res.send(error)) 
+    .catch(error=>res.send(error)) */
 })
 
 
