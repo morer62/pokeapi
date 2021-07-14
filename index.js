@@ -5,7 +5,7 @@ const methods = require ("./Request/get")
 
 app.get("/", (req, res)=>{ 
 
-    res.send("Ventmove ╭∩╮（︶︿︶）​╭∩╮")
+    res.send("Welcome to Ventmove ╭∩╮（︶︿︶）​╭∩╮")
     
    /* methods.getAll().then(
         (result)=>{
